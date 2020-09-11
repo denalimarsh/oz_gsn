@@ -1,0 +1,23 @@
+{
+  "name": "oz_gsn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/network": "^0.4.3",
+    "create-react-app": "^3.4.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts-ethereum-package": "^2.5.0",
+    "@openzeppelin/gsn-helpers": "^0.2.4",
+    "@openzeppelin/upgrades": "^2.8.0",
+    "ganache-cli": "^6.10.2"
+  }
+}
