@@ -1,5 +1,5 @@
 # oz_gsn
-This is a basic Gas Station Network Demo. Once the relayer is running locally
+This is a basic Gas Station Network Demo.
 
 ## Running
 
@@ -13,7 +13,8 @@ npx oz-gsn run-relayer
 
 # Start React UI on http://localhost:3000/ in terminal 3
 cd dapp/
-cd npm install
+ln -ns ../../build
+npm install
 npm start
 ```
 
